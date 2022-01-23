@@ -1,0 +1,84 @@
+									Version Control Software
+									------------------------
+Q> What is version control software and why we need it?
+A> - A project development will happen with several team members.
+
+   - All project development team members may not be available in the same location.
+   
+   - If development is happening from multiple locations then how to integrate code?
+   
+   - If integratation is also done then how to moniter it?
+   
+**************** Code Integration is the first problem *******************
+**************** Monitered Access is the second problem ******************
+
+   - To avoid these 2 problems, Version Control Software came into picture.
+   
+   - If we have version control software in our project then it is vcs responsibility to integrate   
+     the code and moniter the source code modification.
+	 
+   - Version Control Software are also known as Software Configration Mangement[SCM]
+   
+   
+Q> What are the version control software available in market?
+A> 1> IBM Clear Case 
+   2> SVN [Subversion]
+   3> Git / Git Hub
+   4> BitBucket etc...
+   
+Note: - GIT and BitBucket having lot of demand in the market some legacy projects are still using
+        SVN.
+		
+		
+									Version Control Software Terminology
+									------------------------------------
+Repository: -
+----------
+It is the place where we will store our source code.
+
+Repository Id / Commit Id: -
+-------------------------
+Whenever we add new file / modify existing file then one commit id will generated. commit id
+will be used for tracing purpose.
+
+clone: -
+-----
+Taking the entire project from repository to local system.
+
+commit: -
+------
+To push changes to repository. It is also known as "Check-in".
+
+check-out: -
+---------
+Taking lastest changes commited by team member. It is also known as "update [or] pull"
+
+Revert: -
+-------
+Removing committed changes from repository.
+
+logs: -
+----
+Checking commit history.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
