@@ -1,0 +1,91 @@
+					Working with GIT [Environment Setup]
+					------------------------------------
+Step-1:- Create Account In Github.com
+
+Step-2:- Install GIT Client Software [https://git-scm.com/downloads]
+
+
+Q> What is differnce between Github and Git?
+A> - Github is a cloud platform.
+   - Github offers source code management using Git.
+   - Github offers project hosting.
+   - Github implemented in Ruby and accquired by microsoft.
+   - Github offering both free and lincensed accounts.
+   - Our repositories will be maintained in Github.
+   - Git is a client software which is used to commuicate with Github Repository.
+   
+							Working with GIT Client Software.
+							--------------------------------
+- When we are working in project development, we should have common location to store project 
+  source code.
+  
+- As muliple team members working on the source code, we should have mointerd access.
+
+- For every project one Git Repository will be created by GIT Admin in Github.
+
+- Git Admin Will provide repository access to all project team members.
+
+Note: - Every Team members will have a Git account [once you join in the project, then then will
+        create Git for you and they will share the crendentials].
+		
+- Being a team member we will install Git Client Software in our machine and we will perform 
+  Git operations in project repository with client software.
+  
+Note: - Installing GIT Client is not mandatory. We can perform GIT operations from IDE
+        [Eclipse,STS,NetBeans and Intellj] also.
+		
+								Git Commands
+								------------
+1> git help: - shows the complete commands present in git.
+
+2> git help <cmd-name>: - It will documentations of perticular cmd.
+
+3> git init: - This is used to create empty git repository [or] reinitialize the existing one.
+
+Q> How to identify the folder is git repository [or] not?
+A> After using git init cmd the .git hidden folder will be created in the perticular folder  
+   then we have just view the hidden folder then if you get .git folder then it is git repository.
+
+   
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
