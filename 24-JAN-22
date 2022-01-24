@@ -1,0 +1,192 @@
+					Working with GIT [Environment Setup]
+					------------------------------------
+Step-1:- Create Account In Github.com
+
+Step-2:- Install GIT Client Software [https://git-scm.com/downloads]
+
+
+Q> What is differnce between Github and Git?
+A> - Github is a cloud platform.
+   - Github offers source code management using Git.
+   - Github offers project hosting.
+   - Github implemented in Ruby and accquired by microsoft.
+   - Github offering both free and lincensed accounts.
+   - Our repositories will be maintained in Github.
+   - Git is a client software which is used to commuicate with Github Repository.
+   
+							Working with GIT Client Software.
+							--------------------------------
+- When we are working in project development, we should have common location to store project 
+  source code.
+  
+- As muliple team members working on the source code, we should have mointerd access.
+
+- For every project one Git Repository will be created by GIT Admin in Github.
+
+- Git Admin Will provide repository access to all project team members.
+
+Note: - Every Team members will have a Git account [once you join in the project, then then will
+        create Git for you and they will share the crendentials].
+		
+- Being a team member we will install Git Client Software in our machine and we will perform 
+  Git operations in project repository with client software.
+  
+Note: - Installing GIT Client is not mandatory. We can perform GIT operations from IDE
+        [Eclipse,STS,NetBeans and Intellj] also.
+		
+								Git Commands
+								------------
+1> git help: - shows the complete commands present in git.
+
+2> git help <cmd-name>: - It will documentations of perticular cmd.
+
+3> git init: - This is used to create empty git repository [or] reinitialize the existing one.
+
+Q> How to identify the folder is git repository [or] not?
+A> After using git init cmd the .git hidden folder will be created in the perticular folder  
+   then we have just view the hidden folder then if you get .git folder then it is git repository.
+
+4> git status: - This cmd will display status of current repository.
+
+Staged Files
+------------
+Files which are added and they are ready to commit.
+These files name will displayed in green color.
+
+Un-Staged Files
+---------------
+Modified files will be displayed here, we need to stage these files to commit.
+These files name will displayed in red color.
+
+Un-Tracked Files
+----------------
+Newly created files, we need to stage them to commit.
+These files name will displayed in red color.
+
+5> git add: - This cmd is used to add file to staging area.
+
+		syntax: - git add <file-name>
+		
+		syntax: - git add --a ====> To add all files at a one time.
+		
+6> git rm: - This cmd is used to un-stage the newly created file
+ 
+        syntax: - git rm --cached <file-name>
+		
+		syntax: - git rm --cached * ==> this cmd removes all the files.
+		
+7> git commit: - This cmd is used to commit our changes to git local repository.
+
+Note : - if you use the commit then the files will be stored in local repository, and local
+         repository is present in our machine only.
+		 
+---------To commit our files to remote repository we should execute below commands------------
+
+8> git remote add <repo-url> [this requires only first time]
+
+9> git branch -m <branch-name> 
+
+10> git push -u origin master : - this cmd is used to move the files from local repository to 
+                                  central repository.
+								  -u -> user crendentials
+
+11> git rest : - It is used to unstage a file
+
+				Syntax: - git reset HEAD <file-name>
+				
+Q> what is the differnce between rm cmd and reset cmd?
+A> 
+    rm : - Staged to Un-Tracked   [new file which are not added in central repo].
+	reset : - Staged to Un-Staged [modified file which are present in central repo].
+	
+-> Whever we commit, git will generate commit-id.
+
+-> Commit Id contains 40 alphanumerics characters.
+
+-> from 40 alphanumerics characters it will display first 7 characters to us.
+
+-> To check commits history we will use git log cmd.
+     syntax: - git log
+	 
+-> In logs it will display below details
+   1> commit-id
+   2> author
+   3> timestamp
+   4> commit msg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
